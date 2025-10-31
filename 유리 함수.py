@@ -1,5 +1,3 @@
-streamlit_app.py
-
 유리함수(y = a/x)를 시각적·상호작용적으로 학습할 수 있는 Streamlit 앱
 
 사용법: 이 파일을 저장한 뒤 터미널에서
@@ -37,10 +35,7 @@ with col2: st.subheader("치역 (range) ") if abs(a) < 1e-12: st.write("a = 0인
 
 점근선
 
-st.subheader("점근선 (asymptotes)") st.write("y = a/x의 경우 다음과 같은 점근선이 있습니다:") st.markdown("- 수직 점근선: x = 0 (분모가 0이기 때문에)  \
-
-수평 점근선: y = 0 (x → ±∞일 때 a/x → 0)") if abs(a) < 1e-12: st.info("참고: a = 0이면 함수 자체가 거의 y = 0(단, x = 0 제외)이므로 수평 점근선 y=0이 함수와 일치합니다.")
-
+st.subheader("점근선 (asymptotes)") st.write("y = a/x의 경우 다음과 같은 점근선이 있습니다:") st.markdown("- 수직 점근선: x = 0 (분모가 0이기 때문에)  ") st.markdown("- 수평 점근선: y = 0 (x → ±∞일 때 a/x → 0)") if abs(a) < 1e-12: st.info("참고: a = 0이면 함수 자체가 거의 y = 0(단, x = 0 제외)이므로 수평 점근선 y=0이 함수와 일치합니다.")
 
 그래프 그리기
 
