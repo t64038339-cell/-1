@@ -1,3 +1,4 @@
+# streamlit_app.py
 # 유리함수(y = a/x)를 시각적·상호작용적으로 학습할 수 있는 Streamlit 앱
 # 사용법: 이 파일을 저장한 뒤 터미널에서
 #    streamlit run streamlit_app.py
@@ -46,8 +47,7 @@ with col1:
     st.code("정의역: \{ x ∈ R | x ≠ 0 \}")
 
 with col2:
-    st.subheader("치역 (range)
-")
+    st.subheader("치역 (range)")
     if abs(a) < 1e-12:
         st.write("a = 0인 경우: y = 0 (단, x = 0에서는 정의되지 않음). 이때 치역은 {0} 입니다.")
         st.code("치역: \{0\}")
