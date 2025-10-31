@@ -48,6 +48,12 @@ with col1:
 
 with col2:
     st.subheader("치역 (range)")
+st.write("함수가 실제로 출력하는 값의 집합입니다.")
+
+# 공역 추가
+st.subheader("공역 (codomain)")
+st.write("함수가 값을 출력할 수 있는 대상이 되는 '가능한 전체 값의 집합'입니다. 보통 실수 전체 R을 공역으로 둡니다.")
+st.code("공역: R (실수 전체)")
     if abs(a) < 1e-12:
         st.write("a = 0인 경우: y = 0 (단, x = 0에서는 정의되지 않음). 이때 치역은 {0} 입니다.")
         st.code("치역: \{0\}")
